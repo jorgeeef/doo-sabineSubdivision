@@ -1,7 +1,28 @@
 #Doo-Sabin subdivision surfaces
 
-A small, dependency-light implementation of Doo-Sabin subdivision (Doo & Sabin, 1978),
-with an interactive Open3D viewer - subdivide a mesh live, right in the 3D window.
+Step 1 - open cmd in the folder where you need keep the project and clode the repo:
+git clone  https://github.com/jorgeeef/doo-sabineSubdivision.git
+
+Step 2 - enter the project folder
+cd doo-sabineSubdivision
+
+Step 3 - open it in vscode
+code .
+
+sudo apt update 
+sudo apt install python3.12-venv
+python3 -m venv venv
+
+
+
+Step 4 - recreate environment
+python3 -m venv venv
+
+Step 5 - activate the environment
+source venv/bin/activate
+
+Step 6 - install dependencies
+pip install -r requirements.txt
 
 
 
